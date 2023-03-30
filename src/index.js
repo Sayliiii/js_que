@@ -289,3 +289,35 @@
 //   }
 // });
 // console.log(length);
+
+// count vowels & find vowels
+// function count_vowels(str) {
+//   let count = 0;
+//   let ans = [];
+//   let vowels = ["a", "e", "i", "o", "u"];
+//   for (let i = 0; i < str.length; i++) {
+//     // console.log(str[i]);
+//     if (vowels.includes(str[i])) {
+//       count++;
+//       ans.push(str[i]);
+//     }
+//   }
+//   return `Count is : ${count} and vowels are : ${ans} `;
+// }
+// console.log(count_vowels("sayli"));
+
+// remove vowels
+// function remove_vowels(str) {
+//   let split = str.split("");
+//   let ans = [];
+//   let vowels = ["a", "e", "i", "o", "u"];
+//   for (let i = 0; i < split.length; i++) {
+//     if (vowels.includes(split[i])) {
+//       continue;
+//     }
+//     ans += split[i];
+//   }
+//   return ans;
+// }
+// console.log(remove_vowels("sayli"));
+
